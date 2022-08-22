@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+nav {
+  position: fixed;
+  background-color: blueviolet;
+  height: 70px;
+  width: 100%;
+}
+#section1 {
+  padding-top: 80px;
+  height: 100vh;
+  background-color: aqua;
+}
+#section2 {
+  padding-top: 80px;
+  height: 100vh;
+  background-color: red;
+}
+#section3 {
+  padding-top: 80px;
+  height: 100vh;
+  background-color: blue;
+}
