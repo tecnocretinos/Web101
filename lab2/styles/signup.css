@@ -19,12 +19,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 
 img {
   height: 100%;
   width: 45%;
   object-fit: cover;
+  border-radius: 15px 0 0 15px;
 }
 
 h1,

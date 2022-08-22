@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-  max-width: 40%;
+  width: 40%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;
@@ -23,7 +23,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,7 +58,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: hsla(0, 0%, 0%, 0.2);
+  background: hsla(0, 0%, 0%, 0.4);
 }
 
 input {
