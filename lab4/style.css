@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p,
+span,
+label {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.outstanding-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.header {
+  height: 570px;
+  background-image: url("./assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16px;
+}
+
+.header h1,
+p {
+  color: white;
+  margin: 0;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-container p {
+  margin-left: 8px;
+}
+
+.outstanding-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.description {
+  width: 35%;
+}
+
+.list-container {
+  padding: 16px;
+  color: white;
+}
+
+.list {
+  display: flex;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.item-container {
+  padding: 0 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.item-container img {
+  width: 180px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.movie-title {
+  position: absolute;
+  bottom: 8px;
+  margin: 0 8px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(100, 100, 100, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(96, 96, 96, 0.5);
+  -webkit-box-shadow: inset 0 0 6px rgba(136, 136, 136, 0.5);
+}
