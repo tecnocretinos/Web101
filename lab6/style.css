@@ -1,0 +1,15 @@
+.completed {
+  padding: 8px;
+  max-width: 400px;
+  background-color: rgb(205, 205, 205);
+  color: rgb(104, 104, 104);
+  border-radius: 8px;
+}
+
+.not-completed {
+  padding: 8px;
+  max-width: 400px;
+  background-color: blue;
+  color: rgb(226, 226, 226);
+  border-radius: 8px;
+}
