@@ -6,7 +6,7 @@ function buttonClicked() {
   if(value === "msantim") {
     console.log("Logged in")
   } else {
-    console.log("Datos invalidos")
+    alert("Datos invalidos")
   }
 
 }
