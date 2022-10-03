@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays to the moon</title>
+</head>
+
+<body>
+    <div>
+        <h1>Lista de tareas</h1>
+        <p>Ingrese una tarea a realizar</p>
+        <input type="text" placeholder="Tarea" id="task-input"/>
+        <button onclick="addNewTask()">Agregar</button>
+    </div>
+
+    <h2>Mis tareas</h2>
+    <button onclick="deleteLast()">Eliminar ultimo elemento</button>
+    <hr />
+    
+    <div id="task-list">
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
