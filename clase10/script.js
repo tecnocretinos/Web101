@@ -34,15 +34,26 @@ function createStudentMap(name, phone, age) {
 
 function showDetailsInView(studentMap) {
     var innerHtml = ""
-    innerHtml += "<label>Nombre: </label>"
-    innerHtml += "<p>" + studentMap.get("nombre") + "</p>"
 
-    innerHtml += "<label>Telefono: </label>"
-    innerHtml += "<p>" + studentMap.get("telefono") + "</p>"
-
-    innerHtml += "<label>Edad: </label>"
-    innerHtml += "<p>" + studentMap.get("edad") + "</p>"
+    studentMap.forEach((value, key) => {
+        innerHtml += "<div class='map-item'>"
+        innerHtml += "<label>" + key + ": </label>"
+        innerHtml += "<p>" + value + "</p>"
+        innerHtml += "</div>"
+    })
     mapContainer.innerHTML = innerHtml
 }
+
+
+const mapsList = []
+mapsList.push(createStudentMap("Tiago", "301692...", 28))
+mapsList.push(createStudentMap("Uno", "301692...", 28))
+mapsList.push(createStudentMap("Dos", "301692...", 28))
+mapsList.push(createStudentMap("Tres", "301692...", 28))
+
+mapsList.forEach(map => {
+    console.log(map)
+})
+
 const mapStudent = createStudentMap("Tiago", "301692...", 28)
 showDetailsInView(mapStudent)
