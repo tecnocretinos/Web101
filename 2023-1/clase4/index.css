@@ -1,0 +1,59 @@
+body {
+    background-color: antiquewhite;
+     width: 100vw;
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-container {
+    background-color: aqua;
+    width: 40vw;
+    height: 40vh;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#remeber-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#password-reco-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clase1 {
+    background-color: green;
+    width: 100%;
+    height: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.big {
+    font-size: 48px;
+}
+
+#image {
+    border-radius: 16px 0 16px 0;
+    background-image: url("https://i.ytimg.com/vi/YlUKcNNmywk/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+}
