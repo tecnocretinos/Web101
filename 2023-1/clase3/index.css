@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.rojo {
+    color: red;
+}
+
+#azul {
+    color: blue;
+}
+
+p {
+    color: yellow;
+}
+
+.pokemon-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-left: 45%;
+}
+
+.container {
+    background: green;
+    background-image: url("https://i.blogs.es/28b32f/pikachu/450_1000.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px;
+    margin: 16px;
+}
