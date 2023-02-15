@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top-div {
+    background-color: cadetblue;
+    position: fixed;
+    width: 100%;
+}
+
+.block {
+    background-color: antiquewhite;
+    height: 4000px;
+}
+
+.floating-button {
+    background-color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    background-color: aquamarine;
+    height: 400px;
+    width: 300px;
+}
+
+.item {
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+
+    position: absolute;
+    top: -20%;
+    right: 20px;
+}
