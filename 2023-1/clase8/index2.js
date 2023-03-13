@@ -23,7 +23,6 @@ for(let i = 0; i < 500; i++) {
     `
     contenedorRef.innerHTML += htmlExample
 }
-
 // Agregarle funcion de clic a cada boton
 for(let i = 0; i < 500; i++) {
     const elem = document.getElementById("btn"+i)
