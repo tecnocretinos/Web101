@@ -1,0 +1,13 @@
+#main-container {
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue-border {
+    border: 4px solid blue
+}
