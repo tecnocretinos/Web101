@@ -10,7 +10,7 @@ function suma(num){
     var suma = 0
     for(let i = 0; i < a; i++){
         suma = suma + num[i]
-    }
+    }       
     return suma
 }
 
