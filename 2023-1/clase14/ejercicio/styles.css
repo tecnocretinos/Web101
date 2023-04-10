@@ -1,0 +1,9 @@
+.no-completed {
+    color: red;
+    cursor: pointer;
+}
+
+.completed {
+    color: green;
+    cursor: pointer;
+}
