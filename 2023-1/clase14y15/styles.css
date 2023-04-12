@@ -1,0 +1,11 @@
+.no-completed {
+    color: red;
+}
+
+.completed {
+    color: green;
+}
+
+.task {
+    cursor: pointer;
+}

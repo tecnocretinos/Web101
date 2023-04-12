@@ -1,0 +1,13 @@
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+#modal {
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
