@@ -1,0 +1,26 @@
+#movie-container {
+    display: flex;
+}
+
+.movie-item {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.movie-img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.star {
+    width: 4px;
+    height: 4px;
+    margin: 8px;
+    background-color: blue;
+}
+
+.stars {
+    display: flex;
+}
