@@ -1,0 +1,5 @@
+const params = new URLSearchParams(window.location.search)
+const id = params.get('id')
+const texto = params.get('texto')
+const varI = params.get('var')
+console.log(id, texto, varI)
