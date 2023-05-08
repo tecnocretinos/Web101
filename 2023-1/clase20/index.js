@@ -33,3 +33,5 @@ function createUser() {
     
     window.location.href = "./login.html"
 }
+
+console.log("")
