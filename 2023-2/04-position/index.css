@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.red-container {
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.floating-btn {
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+}
+
+.main-container {
+    background-color: bisque;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.inner-div {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+}
+
+.header {
+    background-color: brown;
+    height: 60%;
+    position: relative;
+}
+
+#white-title {
+    color: white;
+}

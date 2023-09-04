@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+
+#title4 {
+    color: green;
+    background-color: black;
+}
+
+.isBlue {
+    color: blue;
+}
+
+p {
+    background-color: aqua;
+}
+
+.container {
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#myImg {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
