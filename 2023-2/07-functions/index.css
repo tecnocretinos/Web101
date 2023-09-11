@@ -1,0 +1,40 @@
+body {
+    background-color: antiquewhite;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    max-width: 240px;
+}
+
+.card h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.card p {
+    padding: 0;
+    margin: 0;
+}
+
+.status {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-bottom: 4px;
+}
+
+.s {
+    background-color: aquamarine;
+}
+
+.m {
+    background-color: chocolate;
+}
+
+.l {
+    background-color: crimson;
+}
