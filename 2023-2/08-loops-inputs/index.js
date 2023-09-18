@@ -47,6 +47,20 @@ function pokemonFight(lifeP1, attackP1, lifeP2, attackP2) {
     }
 }
 
-//renderNumbersWhile(50)
+function addNumber() {
+    const number = document.getElementById("number")
+    const value = number.value
+    renderOneNumber(value)
+}
+
+var value = 0
+
+function add() {
+    const result = document.getElementById("result")
+    const number2 = document.getElementById("number2")
+    value += Number(number2.value)
+    result.innerHTML = "La suma va en: " + value
+    number2.value = ""
+}
+
 renderNumbersFor(50)
-pokemonFight(100, 10, 800, 1)

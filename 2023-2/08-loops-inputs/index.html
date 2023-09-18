@@ -8,8 +8,22 @@
 </head>
 <body>
     <h1>Lista de números</h1>
+    <div>
+        <input placeholder="Agregue un número" type="number" id="number"/>
+        <button onclick="addNumber()">AGREGAR</button>
+    </div>
+
+    <div>
+        <input placeholder="Agregue un número para sumar" 
+                type="number" 
+                id="number2"/>
+        <button onclick="add()">SUMAR</button>
+    </div>
+
     <div id="container">
     </div>
+
+    <h1 id="result"></h1>
     
     <script src="./index.js"></script>
 </body>
