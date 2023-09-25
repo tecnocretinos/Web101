@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <button onclick="showModal()">Show</button>
+
+    <div class="modal hidden" id="modal">
+        <div class="inner-modal">
+            <button onclick="hideModal()">Hide</button>
+        </div>
+    </div>
+
+    <div class="container" 
+    id="container" 
+    onmouseenter="enter()"
+    onmouseleave="leave()"
+    ></div>
+    <script src="./index.js"></script>
+</body>
+</html>

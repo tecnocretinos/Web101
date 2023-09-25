@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+    border-radius: 15px;
+}
+
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.modal {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.424);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-modal {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+}
+
+.hidden {
+    display: none;
+}
