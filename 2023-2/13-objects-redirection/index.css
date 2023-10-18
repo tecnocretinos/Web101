@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product {
+    border-radius: 8px;
+    border: 1px solid black;
+    max-width: 240px;
+    padding: 8px;
+    margin: 8px;
+    height: 400px;
+    cursor: pointer;
+}
+.detail {
+    background-color: bisque;
+}

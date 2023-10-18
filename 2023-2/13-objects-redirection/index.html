@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div>
+        <input placeholder="Search..." id="search"/>
+        <button onclick="search()">Buscar</button>
+        <button onclick="searchByCategory('Electronics')">Electronics</button>
+        <button onclick="searchByCategory('Clothes')">Clothes</button>
+        <button onclick="searchByCategory('Others')">Others</button>
+    </div>
+    <div id="container"></div>
+
+    <script src="./Product.js"></script>
+    <script src="./data.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
