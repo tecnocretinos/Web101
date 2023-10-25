@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, p {
+    color: white;
+}
+
+.banner-img {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+}
+
+.overview {
+    max-width: 500px;
+}
+
+.cover-img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.duration {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.movie {
+    margin: 16px;
+    cursor: pointer;
+}
