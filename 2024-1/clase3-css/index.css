@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+#h2-id {
+    background-color: yellow;
+}
+
+.h2-class {
+    background-color: green;
+}
+
+h2 {
+    color: rgba(67, 255, 255, 0.85);
+    font-size: 90px;
+    background-color: brown;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+#parrafo-3 {
+    background-color: rgba(122, 6, 6, 0.336);
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    margin: 32px;
+    width: 200px;
+}
+
+.caption {
+    background-color: aquamarine;
+    padding: 32px;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-right: 42px;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 140px;
+    width: 230px;
+    color: red;
+}
+
+.card-img {
+    margin: 32px;
+    border-radius: 15px;
+    height: 520px;
+    width: 400px;
+    object-fit: cover;
+}
+
