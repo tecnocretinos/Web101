@@ -1,0 +1,33 @@
+.red {
+    color: red;
+    background-color: rgba(238, 101, 101, 0.459);
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.yellow {
+    color: rgb(255, 153, 0);
+    background-color: rgba(238, 236, 101, 0.459);
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.green {
+    color: green;
+    background-color: rgba(101, 238, 153, 0.459);
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.invoice-item {
+    display: flex;
+}
+
+#invoice-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+}
