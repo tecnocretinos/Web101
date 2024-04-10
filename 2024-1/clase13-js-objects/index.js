@@ -1,13 +1,19 @@
-const listOfCharacters = [
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/61.jpeg"),
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/62.jpeg"),
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/63.jpeg"),
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/64.jpeg"),
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/66.jpeg"),
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/67.jpeg"),
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/68.jpeg"),
-    new Character("Campaign Manager Morty", false, "Human", "Citadel of Ricks", "The Ricklantis Mixup", "https://rickandmortyapi.com/api/character/avatar/65.jpeg")
-]
+let listOfCharacters = []
+
+function createAllCharacters() {
+    const results = data.results
+    for(let i = 0; i < results.length; i++) {
+        const obj = results[i]
+        const name = obj.name
+        const isAlive = obj.status
+        const race = obj.species
+        const lastLocation = obj.location.name
+        const firsSeen = obj.episode[0]
+        const image = obj.image
+        const character = new Character(name, isAlive, race, lastLocation, firsSeen, image)
+        listOfCharacters.push(character)
+    }
+}
 
 function fillScreenWithCharactes() {
     const container = document.getElementById("character-container")
@@ -17,4 +23,5 @@ function fillScreenWithCharactes() {
     }
 }
 
+createAllCharacters()
 fillScreenWithCharactes()

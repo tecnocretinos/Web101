@@ -2,7 +2,7 @@ class Character {
 
     constructor(name, isAlive, race, lastLocation, firsSeen, imageUrl) {
         this.name = name
-        if(isAlive) {
+        if(isAlive === "Alive") {
             this.isAlive = "Vivo"
         } else {
             this.isAlive = "Muerto"

@@ -1,0 +1,11 @@
+#character-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.character {
+    border: 1px solid grey;
+    padding: 8px;
+}
