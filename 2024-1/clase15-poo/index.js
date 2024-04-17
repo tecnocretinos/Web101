@@ -1,6 +1,11 @@
 let container = document.getElementById("users-container")
 let listOfUsers = []
 
+function userClicked(position) {
+    const user = listOfUsers[position]
+    console.log(user.status)
+}
+
 function parseDataToUsers() {
     for(let i = 0; i < data.length; i++) {
         const obj = data[i]
@@ -13,7 +18,7 @@ function createView() {
     parseDataToUsers()
     for(let i = 0; i < listOfUsers.length; i++) {
         const user = listOfUsers[i]
-        container.innerHTML += user.createHtml()
+        container.innerHTML += user.createHtml(i)
     }
 }
 

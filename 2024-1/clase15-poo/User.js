@@ -6,7 +6,7 @@ class User {
         this.status = status
     }
 
-    createHtml() {
+    createHtml(pos) {
 
         let buttonLabel = ""
         if(this.status) {
@@ -20,7 +20,7 @@ class User {
             <p>${this.id}</p>
             <p>${this.name}</p>
             <p>${this.email}</p>
-            <button>${buttonLabel}</button>
+            <button onclick="userClicked(${pos})">${buttonLabel}</button>
         </div>
         <hr />
         `
