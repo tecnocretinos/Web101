@@ -20,7 +20,8 @@ class User {
             <p>${this.id}</p>
             <p>${this.name}</p>
             <p>${this.email}</p>
-            <button onclick="userClicked(${pos})">${buttonLabel}</button>
+            <button onclick="changeStatus(${pos})">${buttonLabel}</button>
+            <button onclick="seeDetail(${pos})">Ver detalle</button>
         </div>
         <hr />
         `

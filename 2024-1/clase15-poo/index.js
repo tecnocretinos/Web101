@@ -1,9 +1,23 @@
 let container = document.getElementById("users-container")
 let listOfUsers = []
 
-function userClicked(position) {
-    const user = listOfUsers[position]
-    console.log(user.status)
+function changeStatus(position) {
+    const userToUse = listOfUsers[position]
+    userToUse.status = !userToUse.status
+    renderView()
+}
+
+function seeDetail(position) {
+    const userToUse = listOfUsers[position]
+    window.location.href = "./detail.html?id="+userToUse.id+"&name="+userToUse.name
+}
+
+function renderView() {
+    container.innerHTML = ""
+    for(let i = 0; i < listOfUsers.length; i++) {
+        const user = listOfUsers[i]
+        container.innerHTML += user.createHtml(i)
+    }
 }
 
 function parseDataToUsers() {
@@ -16,10 +30,7 @@ function parseDataToUsers() {
 
 function createView() {
     parseDataToUsers()
-    for(let i = 0; i < listOfUsers.length; i++) {
-        const user = listOfUsers[i]
-        container.innerHTML += user.createHtml(i)
-    }
+    renderView()
 }
 
 createView()
