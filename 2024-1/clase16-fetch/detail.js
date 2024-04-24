@@ -1,5 +1,12 @@
 const params = new URLSearchParams(window.location.search)
 const idFromUrl = params.get('id')
+let data = []
+
+async function getData() {
+    const response = await fetch("https://raw.githubusercontent.com/tecnocretinos/Web101/main/2024-1/clase16-fetch/data.json")
+    data = await response.json()
+    createView()
+}
 
 function searchUser(){
     let user = null
@@ -27,4 +34,4 @@ function createView() {
     }
 }
 
-createView()
+getData()

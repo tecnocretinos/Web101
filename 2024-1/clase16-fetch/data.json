@@ -22,5 +22,11 @@
         "name": "User name 3",
         "email": "user3@mail.com",
         "active": false
+    },
+    {
+        "id": "1234567894",
+        "name": "Santiago Moreno",
+        "email": "user4@mail.com",
+        "active": true
     }
 ]

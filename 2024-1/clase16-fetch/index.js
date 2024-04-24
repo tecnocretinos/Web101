@@ -1,10 +1,11 @@
 let container = document.getElementById("users-container")
 let listOfUsers = []
+let data = []
 
 async function getData() {
-    const d = await fetch("https://rickandmortyapi.com/api/character")
-    const json = await d.json()
-    console.log(json)
+    const response = await fetch("https://raw.githubusercontent.com/tecnocretinos/Web101/main/2024-1/clase16-fetch/data.json")
+    data = await response.json()
+    createView()
 }
 
 function changeStatus(position) {
@@ -40,4 +41,3 @@ function createView() {
 }
 
 getData()
-createView()
