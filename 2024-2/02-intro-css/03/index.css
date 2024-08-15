@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    background-color: bisque;
+    width: 50%;
+}
+
+.subtitulo {
+    color: aqua;
+    background-color: black;
+    padding: 16px;
+}
+
+#unico {
+    color: burlywood;
+    background-color: brown;
+    margin: 16px;
+}
+
+h3 {
+    color: yellow;
+}
