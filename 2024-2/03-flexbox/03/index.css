@@ -1,0 +1,77 @@
+.red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+}
+
+.red-big {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.black {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.conatainer {
+    background-color: bisque;
+    width: 50%;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: aqua;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: brown;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.floating-button {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
