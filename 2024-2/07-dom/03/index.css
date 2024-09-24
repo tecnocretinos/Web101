@@ -1,0 +1,33 @@
+.red {
+    background-color: brown;
+    padding: 8px;
+    color: white;
+}
+
+.blue {
+    background-color: aqua;
+    padding: 8px;
+    color: black;
+}
+
+input {
+    margin: 16px;
+}
+
+.text {
+    color: grey;
+    font-size: 24px ;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container img {
+    height: 16px;
+    width: 16px;
+}
