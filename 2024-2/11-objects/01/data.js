@@ -81,4 +81,3 @@ let p4 = {
 }
 
 let data = [p1, p2, p3, p4]
-console.log(data)
