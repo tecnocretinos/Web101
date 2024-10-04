@@ -16,10 +16,6 @@ class Product {
                     <label>${this.categoryName}</label>
                     <p>${this.title}</p>
                     <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
                     <h3>$ ${this.price}</h3>
                 </div>
             </div>
