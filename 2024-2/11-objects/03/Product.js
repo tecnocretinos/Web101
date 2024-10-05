@@ -1,4 +1,4 @@
-class Prodcut {
+class Product {
     constructor(id, title, price, description, images, categoryName) {
         this.id = id
         this.title = title
@@ -7,4 +7,19 @@ class Prodcut {
         this.images = images
         this.categoryName = categoryName
     }
+
+    cardHtml() {
+        return `
+            <div class="product-item">
+                <img src="${this.images[0]}" alt="">
+                <div class="product-item-info">
+                    <label>${this.categoryName}</label>
+                    <p>${this.title}</p>
+                    <br>
+                    <h3>$ ${this.price}</h3>
+                </div>
+            </div>
+        `
+    }
+
 }
