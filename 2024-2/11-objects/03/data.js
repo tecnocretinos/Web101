@@ -1,23 +1,5 @@
 let data = [
     {
-        "id": 3,
-        "title": "Classic Heather Gray Hoodie Updated 565888",
-        "price": 69,
-        "description": "Stay cozy and stylish with our Classic Heather Gray Hoodie. Crafted from soft, durable fabric, it features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Perfect for a casual day out or a relaxing evening in, this hoodie is a versatile addition to any wardrobe.",
-        "images": [
-            "[\"https://i.imgur.com/1twoaDy.jpeg\"]"
-        ],
-        "creationAt": "2024-10-04T18:19:32.000Z",
-        "updatedAt": "2024-10-04T23:13:51.000Z",
-        "category": {
-            "id": 1,
-            "name": "Clothes",
-            "image": "https://i.imgur.com/QkIa5tT.jpeg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
         "id": 4,
         "title": "Classic Grey Hooded Sweatshirt",
         "price": 90,
@@ -128,26 +110,6 @@ let data = [
         ],
         "creationAt": "2024-10-04T18:19:32.000Z",
         "updatedAt": "2024-10-04T18:19:32.000Z",
-        "category": {
-            "id": 1,
-            "name": "Clothes",
-            "image": "https://i.imgur.com/QkIa5tT.jpeg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 10,
-        "title": "Classic Blue Baseball Cap34",
-        "price": 86,
-        "description": "Top off your casual look with our Classic Blue Baseball Cap, made from high-quality materials for lasting comfort. Featuring a timeless six-panel design with a pre-curved visor, this adjustable cap offers both style and practicality for everyday wear.",
-        "images": [
-            "[\"https://i.imgur.com/wXuQ7bm.jpeg\"",
-            "\"https://i.imgur.com/BZrIEmb.jpeg\"",
-            "\"https://i.imgur.com/KcT6BE0.jpeg\"]"
-        ],
-        "creationAt": "2024-10-04T18:19:32.000Z",
-        "updatedAt": "2024-10-04T22:56:10.000Z",
         "category": {
             "id": 1,
             "name": "Clothes",
@@ -950,134 +912,6 @@ let data = [
             "id": 5,
             "name": "Miscellaneous",
             "image": "https://i.imgur.com/BG8J0Fj.jpg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 52,
-        "title": "Elegant Glass Tumbler Set",
-        "price": 50,
-        "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
-        "images": [
-            "[\"https://i.imgur.com/TF0pXdL.jpg\"",
-            "\"https://i.imgur.com/BLDByXP.jpg\"",
-            "\"https://i.imgur.com/b7trwCv.jpg\"]"
-        ],
-        "creationAt": "2024-10-04T19:16:55.000Z",
-        "updatedAt": "2024-10-04T19:32:03.000Z",
-        "category": {
-            "id": 5,
-            "name": "Miscellaneous",
-            "image": "https://i.imgur.com/BG8J0Fj.jpg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 53,
-        "title": "1 jsjhdsghdkjd",
-        "price": 10,
-        "description": "1111",
-        "images": [
-            "[\"https://i.imgur.com/1twoaDy.jpeg\"]"
-        ],
-        "creationAt": "2024-10-04T21:26:25.000Z",
-        "updatedAt": "2024-10-04T21:26:25.000Z",
-        "category": {
-            "id": 1,
-            "name": "Clothes",
-            "image": "https://i.imgur.com/QkIa5tT.jpeg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 54,
-        "title": "producto 3",
-        "price": 200,
-        "description": "hola",
-        "images": [
-            "[\"https://i.imgur.com/1twoaDy.jpeg\"]"
-        ],
-        "creationAt": "2024-10-04T21:28:02.000Z",
-        "updatedAt": "2024-10-04T22:47:29.000Z",
-        "category": {
-            "id": 1,
-            "name": "Clothes",
-            "image": "https://i.imgur.com/QkIa5tT.jpeg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 55,
-        "title": "New Cap",
-        "price": 10,
-        "description": "A description",
-        "images": [
-            "[\"https://placeimg.com/640/480/any\"]"
-        ],
-        "creationAt": "2024-10-04T22:34:16.000Z",
-        "updatedAt": "2024-10-04T22:34:16.000Z",
-        "category": {
-            "id": 3,
-            "name": "Furniture",
-            "image": "https://i.imgur.com/Qphac99.jpeg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 56,
-        "title": "1222",
-        "price": 23330,
-        "description": "333333",
-        "images": [
-            "[\"https://i.imgur.com/1twoaDy.jpeg\"]"
-        ],
-        "creationAt": "2024-10-04T22:56:31.000Z",
-        "updatedAt": "2024-10-04T22:56:31.000Z",
-        "category": {
-            "id": 1,
-            "name": "Clothes",
-            "image": "https://i.imgur.com/QkIa5tT.jpeg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 57,
-        "title": "weee",
-        "price": 1,
-        "description": "dedwee",
-        "images": [
-            "[\"https://i.imgur.com/1twoaDy.jpeg\"]"
-        ],
-        "creationAt": "2024-10-04T23:13:58.000Z",
-        "updatedAt": "2024-10-04T23:13:58.000Z",
-        "category": {
-            "id": 1,
-            "name": "Clothes",
-            "image": "https://i.imgur.com/QkIa5tT.jpeg",
-            "creationAt": "2024-10-04T18:19:32.000Z",
-            "updatedAt": "2024-10-04T18:19:32.000Z"
-        }
-    },
-    {
-        "id": 58,
-        "title": "New Product Course",
-        "price": 9999,
-        "description": "A description",
-        "images": [
-            "[\"https://placeimg.com/640/480/any\"]"
-        ],
-        "creationAt": "2024-10-04T23:51:02.000Z",
-        "updatedAt": "2024-10-04T23:51:02.000Z",
-        "category": {
-            "id": 1,
-            "name": "Clothes",
-            "image": "https://i.imgur.com/QkIa5tT.jpeg",
             "creationAt": "2024-10-04T18:19:32.000Z",
             "updatedAt": "2024-10-04T18:19:32.000Z"
         }

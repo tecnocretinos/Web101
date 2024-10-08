@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid rgb(174, 174, 174);
+}
+
+nav h2 {
+    margin: 0;
+}
+
+.primary-btn {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: black;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav-actions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.search-input-container {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 15px;
+    border: 1px solid rgb(174, 174, 174);
+}
+
+.search-input-container input {
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.content-img {
+    width: 400px;
+}
+
+.info {
+    padding: 32px;
+}
+
+.actions {
+    display: flex;
+    gap: 16px;
+}
+
+.small-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-imgs-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}

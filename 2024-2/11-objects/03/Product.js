@@ -8,9 +8,9 @@ class Product {
         this.categoryName = categoryName
     }
 
-    cardHtml() {
+    cardHtml(pos) {
         return `
-            <div class="product-item">
+            <div class="product-item" onclick="productSelected(${pos})">
                 <img src="${this.images[0]}" alt="">
                 <div class="product-item-info">
                     <label>${this.categoryName}</label>
