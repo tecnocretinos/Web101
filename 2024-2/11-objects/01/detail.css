@@ -31,6 +31,16 @@ nav h2 {
     color: white;
     padding: 8px;
     border-radius: 15px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: black;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .nav-actions-container {
@@ -59,6 +69,14 @@ nav h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 60%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
 }
 
 .content-img {
@@ -67,4 +85,20 @@ nav h2 {
 
 .info {
     padding: 32px;
+}
+
+.actions {
+    display: flex;
+    gap: 16px;
+}
+
+.small-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-imgs-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }
