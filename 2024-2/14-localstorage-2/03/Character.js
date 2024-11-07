@@ -29,6 +29,17 @@ class Character {
         `
     }
 
+    toHtmlFavoritos(pos) {
+        return `
+        <div class="item-fav">
+            <img src="${this.img}" alt="">
+            <div class="info">
+                <p>${this.name}</p>
+            </div>
+        </div>
+        `
+    }
+
     toMap() {
         return {
             id: this.id,

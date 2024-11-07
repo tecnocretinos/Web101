@@ -11,6 +11,19 @@
     padding: 16px;
 }
 
+.item-fav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+.item-fav img {
+    width: 40px;
+}
+
 .item .info {
     display: flex;
     flex-direction: column;
